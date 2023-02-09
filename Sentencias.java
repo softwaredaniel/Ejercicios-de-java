@@ -11,7 +11,14 @@ public class MyClass {
      while(numeroWhile<3){
        numeroWhile++;
          System.out.println("Entro al bucle while");
-     }  
+     } 
+    do{ 
+        numeroWhile++;
+        System.out.println("Entro al bucle while");
+         }
+    while(numeroWhile<3);
+        
+        
     }
     
  
