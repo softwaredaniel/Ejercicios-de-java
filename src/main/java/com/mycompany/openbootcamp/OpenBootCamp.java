@@ -12,6 +12,14 @@ public class OpenBootCamp {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        
+        Persona persona=new Persona();
+        persona.setNombre("Alex");
+        System.out.println(persona.getNombre());
+        persona.setEdad(18);
+        System.out.println(persona.getEdad());
+        persona.setTelefono(318);
+        System.out.println(persona.getTelefono());
         int a=10;
         int b=20;
         int c=30;
